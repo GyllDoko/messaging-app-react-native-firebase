@@ -1,43 +1,103 @@
-# React Native WhatsApp Clone with Clerk
+# Mobile Chat Application (React Native)
 
-This is a React Native WhatsApp clone using [Clerk](https://clerk.com/?utm_source=sponsorship&utm_medium=github&utm_campaign=simong&utm_content=rn-whatsapp) for user authentication with OTP.
+A mobile messaging application built with React Native, featuring real-time chat UI, authentication with OTP, and optimized user experience for conversations.
 
-Additional features:
+---
 
-- [Expo Router](https://docs.expo.dev/routing/introduction/) file-based navigation
-- [SMS OTP](https://clerk.com/docs/custom-flows/email-sms-otp?utm_source=sponsorship&utm_medium=github&utm_campaign=simong&utm_content=rn-whatsapp) Auth with Clerk
-- [Reanimated](https://docs.swmansion.com/react-native-reanimated/) 3 for animations
-- [Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/) for gestures
-- [Gifted Chat](https://github.com/FaridSafi/react-native-gifted-chat) for chat UI
+## 🧩 Problem
 
-## Screenshots
+Messaging applications require smooth conversation flows, intuitive UI, and responsive interactions to provide a seamless user experience on mobile devices.
 
-<div style="display: flex; flex-direction: 'row';">
-<img src="./screenshots/1.png" width=30%>
-<img src="./screenshots/2.png" width=30%>
-<img src="./screenshots/3.png" width=30%>
-<img src="./screenshots/4.png" width=30%>
-<img src="./screenshots/5.png" width=30%>
-<img src="./screenshots/6.png" width=30%>
-<img src="./screenshots/7.png" width=30%>
-<img src="./screenshots/8.png" width=30%>
-<img src="./screenshots/9.png" width=30%>
+---
 
+## 💡 Solution
+
+Built a React Native chat application focusing on conversation experience, including authentication, message display, and interaction patterns similar to modern messaging apps.
+
+---
+
+## ⚙️ Tech Stack
+
+- React Native (Expo)
+- Clerk (OTP authentication)
+- Gifted Chat (chat UI)
+- Reanimated (animations)
+- Gesture Handler (interactions)
+- Expo Router (navigation)
+
+---
+
+## 🚀 Key Features
+
+- Chat interface with message threads
+- OTP-based authentication flow
+- Contact and conversation management
+- Smooth animations and gesture interactions
+- Responsive UI optimized for mobile
+
+---
+
+## 🧠 Architecture
+
+- Modular component-based UI for chat screens
+- Navigation handled via Expo Router
+- Authentication managed via Clerk (OTP flow)
+- State-driven UI updates for message rendering
+
+---
+
+## ⚠️ Challenges & Solutions
+
+**Building smooth chat interactions**
+- Used optimized components and animations for fluid UX
+
+**Authentication flow**
+- Integrated OTP-based login for quick access
+
+**UI responsiveness**
+- Ensured consistent performance across devices
+
+---
+
+## 📸 Screenshots
+
+<div style="display: flex; flex-direction: row;">
+<img src="./screenshots/1.png" width="30%">
+<img src="./screenshots/2.png" width="30%">
+<img src="./screenshots/3.png" width="30%">
+<img src="./screenshots/4.png" width="30%">
+<img src="./screenshots/5.png" width="30%">
+<img src="./screenshots/6.png" width="30%">
+<img src="./screenshots/7.png" width="30%">
+<img src="./screenshots/8.png" width="30%">
+<img src="./screenshots/9.png" width="30%">
 </div>
 
-## Demo
+---
 
-<div style="display: flex; flex-direction: 'row';">
-<img src="./screenshots/calls.gif" width=40%>
-<img src="./screenshots/chats.gif" width=40%>
-<img src="./screenshots/contacts.gif" width=40%>
-<img src="./screenshots/messages.gif" width=40%>
+## 🎬 Demo
+
+<div style="display: flex; flex-direction: row;">
+<img src="./screenshots/calls.gif" width="40%">
+<img src="./screenshots/chats.gif" width="40%">
+<img src="./screenshots/contacts.gif" width="40%">
+<img src="./screenshots/messages.gif" width="40%">
 </div>
 
-## 🚀 More
+---
 
-**Take a shortcut from web developer to mobile development fluency with guided learning**
+## ▶️ Running Locally
 
-Enjoyed this project? Learn to use React Native to build production-ready, native mobile apps for both iOS and Android based on your existing web development skills.
+```bash
+npm install
+npx expo start
+```
 
-<a href="https://galaxies.dev"><img src="banner.png" height="auto" width="100%"></a>
+### Environment variables
+
+```bash
+CLERK_API_KEY=your_key
+```
+
+## Notes 
+> This project focuses on mobile messaging UX and interaction design rather than backend real-time architecture.
